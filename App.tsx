@@ -26,7 +26,10 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import BgTracking from './tracking';
 
+const props ={}
+const tracking = new BgTracking(props)
 const Section: React.FC<{
   title: string;
 }> = ({children, title}) => {
@@ -75,7 +78,7 @@ const App = () => {
           }}>
           <Section title="Step One">
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
+            screen and then come back to see your edittys.
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
@@ -89,6 +92,8 @@ const App = () => {
           <LearnMoreLinks />
         </View>
       </ScrollView>
+    <BgTracking>
+    </BgTracking>
     </SafeAreaView>
   );
 };
