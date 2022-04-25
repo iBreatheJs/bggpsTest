@@ -10,7 +10,11 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@mauron85/react-native-background-geolocation": "^0.6.3",
+=======
+    "@mauron85/react-native-background-geolocation": "github:peteritvina/react-native-background-geolocation",
+>>>>>>> temp
     "react": "17.0.2",
     "react-native": "0.68.1"
   },
